@@ -13,7 +13,7 @@
     font-size: 25px;
   }
   &__backdrop {
-    background: rgba(0, 0, 0, 0.6);
+    color: var(--c-main);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -32,6 +32,8 @@
     &._active {
       opacity: 1;
       transform: translateX(0);
+      font-family: var(--ff-second);
+      color: var(--c-main);
     }
   }
 
@@ -60,19 +62,22 @@
 
     &._active {
       transform: translateX(0);
+      color: var(--c-main);
     }
 
     .icon-close {
       position: absolute;
       top: 40px;
       right: 40px;
-      color: var(--c-text-white);
+      color: var(--c-main);
     }
   }
 
   &__a {
+    color: var(--c-main);
+
     @include tablet {
-      color: var(--c-text-white);
+      color: var(--c-main);
     }
   }
 }
@@ -84,5 +89,8 @@
 
   @include tablet {
     display: inline-block;
+  }
+  .material-icons {
+    color: var(--c-main);
   }
 }

@@ -1,15 +1,16 @@
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 body {
-	font-family: var(--ff);
-	display: grid;
-	grid-template-rows: auto 1fr auto;
+  font-family: var(--ff);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .container {
-	max-width: 1100px;
-	margin-inline: auto;
+  max-width: 1240px;
+  margin-inline: auto;
 }
 .main {
-	padding: 20px;
+  padding: 20px;
 }

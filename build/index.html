@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Gulp Starter Project my LemonSchool</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="./css/main.css" />
-</head>
-
-<body>
-	<header class="header">
+  <body>
+    <header class="header">
   <div class="header__logo">
     <img src="/img/IT.png" alt="" />
     <div>Courses</div>
@@ -26,33 +31,27 @@
       onclick="navToggle()"
     ></div>
     <ul class="header__ul" id="headerUl">
-      <li class="header__li"><a class="header__a" href="/">Link 1</a></li>
-      <li class="header__li"><a class="header__a" href="/">Link 2</a></li>
-      <li class="header__li"><a class="header__a" href="/">Link 3</a></li>
-      <li class="header__li"><a class="header__a" href="/">Link 4</a></li>
+      <li class="header__li"><a class="header__a" href="/">CONTACT</a></li>
+      <li class="header__li"><a class="header__a" href="/">ABOUT</a></li>
+      <li class="header__li"><a class="header__a" href="/">REVIEWS</a></li>
+      <li class="header__li"><a class="header__a" href="/">EXPERIENCE</a></li>
       <span class="material-icons icon-close" onclick="navToggle()">close</span>
     </ul>
     <span class="material-icons icon-menu" onclick="navToggle()">menu</span>
   </div>
 </header>
+ <div>dsadasdasdasdsad</div>
 
-	<main class="main">
-		<div class="template">
-			<div>Website</div>
-			<img src="./img/web.jpg" alt="">
-		</div>
-	</main>
-	<footer class="footer">
+    <footer class="footer">
 	<div>Footer</div>
 </footer>
 
-	<script src="./js/index.bundle.js"></script>
-	<script>
-		function navToggle() {
-			document.getElementById("headerUl").classList.toggle("_active");
-			document.getElementById("headerBackdrop").classList.toggle("_active");
-		}
-	</script>
-</body>
-
+    <script src="./js/index.bundle.js"></script>
+    <script>
+      function navToggle() {
+        document.getElementById("headerUl").classList.toggle("_active");
+        document.getElementById("headerBackdrop").classList.toggle("_active");
+      }
+    </script>
+  </body>
 </html>
