@@ -27,10 +27,11 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  gap: 15 px;
+  gap: 15px;
   &:hover {
     transform: translateY(-15px);
     background: #696969;
+    transition: 0.2s;
   }
 
   &__header {
