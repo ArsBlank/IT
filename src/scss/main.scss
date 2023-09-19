@@ -4,6 +4,7 @@
 // utils
 @import "utils/vars";
 @import "utils/mixins";
+@import "utils/animations";
 
 // layout
 @import "layout/base";
@@ -17,3 +18,4 @@
 @import "components/info.section";
 @import "components/teachers.section";
 @import "components/about.section";
+@import "components/reviews.section";
